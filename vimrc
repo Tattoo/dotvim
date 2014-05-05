@@ -9,3 +9,4 @@ set background=dark
 colorscheme solarized
 
 set colorcolumn=80
+set number
