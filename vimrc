@@ -9,4 +9,5 @@ set background=dark
 colorscheme solarized
 
 set colorcolumn=80
+highlight ColorColumn guibg=#32322f ctermbg=236
 set number
