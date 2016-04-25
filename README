@@ -1,1 +1,12 @@
-ln -s ~/dotvim/vimrc ~/.vimrc
+# install pathogen
+# https://github.com/tpope/vim-pathogen
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+
+# install solarized with pathogen
+# http://ethanschoonover.com/solarized/vim-colors-solarized
+cd ~/.vim/bundle
+git clone git://github.com/altercation/vim-colors-solarized.git
+
+# link 
+ln -s $HOME/dotvim/vimrc ~/.vimrc
