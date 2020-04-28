@@ -1,14 +1,6 @@
 ```
-# install pathogen
-# https://github.com/tpope/vim-pathogen
-mkdir -p ~/.vim/autoload ~/.vim/bundle && \
-curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-
-# install solarized with pathogen
-# http://ethanschoonover.com/solarized/vim-colors-solarized
-cd ~/.vim/bundle
-git clone git://github.com/altercation/vim-colors-solarized.git
-
-# link 
+# links 
 ln -s $HOME/dotvim/vimrc ~/.vimrc
+mkdir -p ~/.vim/colors
+ln -s $HOME/dotvim/monokai.vim ~/.vim/colors/monokai.vim
 ```
